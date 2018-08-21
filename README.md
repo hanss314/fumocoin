@@ -1,18 +1,20 @@
-Bitcoin Core integration/staging tree
+FumoCoin
 =====================================
 
-[![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
+[Discord](https://discord.gg/v2SyMRj)
 
-https://bitcoincore.org
-
-What is Bitcoin?
+What is FumoCoin?
 ----------------
 
-Bitcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin Core is the name of open source
-software which enables the use of this currency.
+FumoCoin, the only decentralized fraud-resistant currency explicitly for the 
+exchange of soft Touhou plushes.
+
+FumoCoin is based on (forked from Bitcoin). Bitcoin is an experimental digital 
+currency that enables instant payments toanyone, anywhere in the world. Bitcoin
+uses peer-to-peer technology to operate with no central authority: managing 
+transactions and issuing money are carried out collectively by the network. 
+Bitcoin Core is the name of open source software which enables the use of this 
+currency.
 
 For more information, as well as an immediately useable, binary version of
 the Bitcoin Core software, see https://bitcoincore.org/en/download/, or read the
@@ -21,56 +23,25 @@ the Bitcoin Core software, see https://bitcoincore.org/en/download/, or read the
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+FumoCoin is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Bitcoin Core.
+Development of FumoCoin requires the posession of a Touhou FumoFumo plushie. If in need 
+of one, Tokyo Otaku Mode has [some](https://otakumode.com/search?mode=shop&category=&keyword=fumo).
 
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
+Upon starting development, it is suggested that contributors share their fumos on social media.
+Tweet out pictures of the subject plush with the hashtag #FumoOrFOMO to join the FumoCoin revolution.
 
 Testing
 -------
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`. Further details on running
-and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
-
-There are also [regression and integration tests](/test), written
-in Python, that are run automatically on the build server.
-These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
-
-The Travis CI system makes sure that every pull request is built for Windows, Linux, and macOS, and that unit/sanity tests are run automatically.
-
-### Manual Quality Assurance (QA) Testing
-
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
+FumoCoin inherits all tests from BitCoin, will not be regularly updated and does not
+have any automated testing.
 
 Translations
 ------------
 
-Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-translators).
+FumoCoin is only available in English at this current moment.
